@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "CranberryBlues";
+    src: url("../assets/fonts/CranberryBlues.ttf");
+}
+
+h1 {
+    font-family: "Calibri";
+    color: rgb(81, 255, 0);
+    border: 2px solid rgb(173, 173, 192);
+    background-color: rgb(242, 248, 240);
+}
+
+#myCanvas {
+    border:1px solid black;
+    background-color: lightgrey;
+    background-image: url("../assets/images/start.JPG");
+    background-size:cover;
+}
+
+
+
+#infosJeu {
+     font-family: "CranberryBlues";
+     color:red;
+     font-size:20px;
+    position:absolute;
+    left:30px;
+    top:580px;
+    user-select: none;
+}
